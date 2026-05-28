@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "id": "lock_remnote_daily_queue",
+  "name": "Lock RemNote Until Daily Queue Done",
+  "author": "DanielDND",
+  "repoUrl": "https://github.com/DanielDND/RemLock",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "theme": [],
+  "enableOnMobile": true,
+  "description": "Sends a lock signal when RemNote opens and an unlock signal when today's review queue hits 0 remaining cards.",
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "Read"
+    }
+  ]
+}
